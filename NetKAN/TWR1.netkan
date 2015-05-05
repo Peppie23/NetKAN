@@ -6,13 +6,14 @@
 "abstract" : "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
 "license" : "GPL-3.0",
 "release_status" : "stable",
-"ksp_version" : "0.90",
+"ksp_version" : "1.0",
 "author" : "Diazo",
 "resources" : {
 "homepage" : "http://forum.kerbalspaceprogram.com/threads/50736"
 },
-"recommends" : [ { "name" : "Toolbar" },
-{ "name" : "ModuleManager" }],
+"recommends" : [ { "name" : "Toolbar" }],
+"depends": [
+{ "name": "ModuleManager" }],
 "install" : [
 {
 "file" : "GameData/Diazo",
